@@ -7,6 +7,29 @@ header {
     color: white;
     content: "Breaker";
 }
+.flex-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.somos{
+    margin: 5px;
+}
+.equipo{
+    margin: 5px;
+}
+.contactenos{
+    margin: 5px;
+}
+.button{
+    color: white;
+    border-radius: 50px;
+    background-color: #ffc34150;
+    border: 10px #ffc341ec;
+    height: 20px;
+    width: 100px
+    
+    
+}
 .img-container {
     width: 300px;
     height: 300px;
