@@ -1,6 +1,4 @@
 
-
-
 body {
     font-family: jost;
 }
@@ -14,5 +12,5 @@ header {
     height: 300px;
     border-radius: 150px 0px 150px 150px;
     background-color: #FF7F99;
-    overflow: hidden;
+    overflow: hidden ;
 }
