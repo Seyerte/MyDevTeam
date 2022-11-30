@@ -1,4 +1,7 @@
-
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: jost;
 }
@@ -6,10 +9,15 @@ header {
     background-color: #FF7F99 ;
     color: white;
     content: "Breaker";
+    height: 100px;
+}
+.titulo {
+    font-size: 50px;
 }
 .flex-container{
     display: flex;
     flex-direction: row-reverse;
+    
 }
 .somos{
     margin: 5px;
@@ -21,13 +29,15 @@ header {
     margin: 5px;
 }
 .button{
+    font-family: jost;
+    font-size: 16px;
     color: white;
     border-radius: 50px;
     background-color: #ffc34150;
-    border: 10px #ffc341ec;
-    height: 20px;
+    border: 15px #ffc341ec;
+    height: 24px;
     width: 100px
-    
+   
     
 }
 .img-container {
