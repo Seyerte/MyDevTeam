@@ -1,4 +1,8 @@
 /* reset default */
+@font-face {
+    font-family: jost;
+    src: url(/Font/Jost-Medium.ttf);
+}
 * {
     box-sizing: border-box; 
     margin: 0;
@@ -22,10 +26,8 @@ header {
     align-items: center;
 
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
-
-
 header nav {
     /* flexBox*/
     display: flex;
@@ -34,15 +36,18 @@ header nav {
 }
 
 header nav a {
-    padding: 14px 29px;
+    padding: 14px 15px;
     color: white;
     display: flex;
     text-align: center;
     text-decoration: none;
     /*flexbox*/
     flex-grow: 1;
+    flex-wrap: wrap;
 }
-
+ .title-color {
+    color: #FFCA41;
+ }
 
 .button{
     font-family: jost;
@@ -54,10 +59,34 @@ header nav a {
     height: 30px;
     width: 100px
 }
+.section {
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+}
 .img-container {
     width: 300px;
     height: 300px;
     border-radius: 150px 0px 150px 150px;
     background-color: #FF7F99;
     overflow: hidden ;
+    /*flexbox*/
+    display: flex;
+    
+}
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.section-1 {
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+
+}
+.consultores {
+    font-size: 50px;
+    color: #FF7F99;
 }
