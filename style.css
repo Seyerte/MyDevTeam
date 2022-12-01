@@ -1,9 +1,11 @@
 * {
-    margin: 0;
-    padding: 0;
+    box-sizing: border; 
+    
 }
 body {
     font-family: jost;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #FF7F99 ;
