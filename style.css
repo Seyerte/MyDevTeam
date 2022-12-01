@@ -50,7 +50,6 @@ header nav a {
  }
 
 .button{
-    font-family: jost;
     font-size: 16px;
     color: white;
     border-radius: 60px;
@@ -59,10 +58,11 @@ header nav a {
     height: 30px;
     width: 100px
 }
-.section {
+.section-1 {
     display: flex;
     padding: 50px;
     flex-wrap: wrap;
+    align-items: center;
 }
 .img-container {
     width: 300px;
@@ -80,9 +80,9 @@ header nav a {
     object-fit: cover;
     object-position: center;
 }
-.section-1 {
+.flexBox {
     display: flex;
-    padding: 40px;
+    padding: 80px;
     flex-direction: column;
 
 }
@@ -90,3 +90,12 @@ header nav a {
     font-size: 50px;
     color: #FF7F99;
 }
+.button-1{
+    font-size: 15px;
+    color: white;
+    border-radius: 60px;
+    background-color: #FFCA41;
+    border: 15px #ffc341ec;
+    height: 30px;
+    width: 100px
+} /*Codigo de la letra Te llamamos*/
