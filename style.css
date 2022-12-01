@@ -1,46 +1,58 @@
+/* reset default */
 * {
-    box-sizing: border; 
-    
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
 }
 body {
     font-family: jost;
     margin: 0;
     padding: 0;
 }
+
 header {
     background-color: #FF7F99 ;
     color: white;
-    content: "Breaker";
     height: 100px;
-}
-.titulo {
-    font-size: 50px;
-}
-.flex-container{
+    padding: 30px;
+
+    /* flexBox */
     display: flex;
-    flex-direction: row-reverse;
-    
+    justify-content: space-between;
+    align-items: center;
+
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-.somos{
-    margin: 5px;
+
+
+header nav {
+    /* flexBox*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
-.equipo{
-    margin: 5px;
+
+header nav a {
+    padding: 14px 29px;
+    color: white;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    /*flexbox*/
+    flex-grow: 1;
 }
-.contactenos{
-    margin: 5px;
-}
+
+
 .button{
     font-family: jost;
     font-size: 16px;
     color: white;
-    border-radius: 50px;
+    border-radius: 60px;
     background-color: #ffc34150;
     border: 15px #ffc341ec;
-    height: 24px;
+    height: 30px;
     width: 100px
-   
-    
 }
 .img-container {
     width: 300px;
