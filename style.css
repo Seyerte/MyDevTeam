@@ -45,16 +45,9 @@ header nav a {
     flex-grow: 1;
     flex-wrap: wrap;
 }
-<<<<<<< HEAD
-.Title-color { 
-    color: #FFCA41;
-}
-
-=======
  .title-color {
     color: #FFCA41;
  }
->>>>>>> 7ebd3795d0e851a21415af7684f606850b0bded2
 
 .button{
     font-size: 16px;
@@ -65,16 +58,11 @@ header nav a {
     height: 30px;
     width: 100px
 }
-<<<<<<< HEAD
-section {
-    padding: 50px;
-=======
 .section-1 {
     display: flex;
     padding: 50px;
     flex-wrap: wrap;
     align-items: center;
->>>>>>> 7ebd3795d0e851a21415af7684f606850b0bded2
 }
 .img-container {
     width: 300px;
@@ -111,3 +99,7 @@ section {
     height: 30px;
     width: 100px
 } /*Codigo de la letra Te llamamos*/
+.section-2 {
+    height: 400px;
+    background-color: #FF7F99;
+}
