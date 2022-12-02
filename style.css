@@ -58,21 +58,22 @@ header nav a {
     height: 30px;
     width: 100px
 }
-.section-1 {
+.section {
     display: flex;
-    padding: 50px;
+    padding: 150px;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 .img-container {
-    width: 300px;
-    height: 300px;
-    border-radius: 150px 0px 150px 150px;
+    width: 350px;
+    height: 350px;
+    border-radius: 170px 0px 170px 170px;
     background-color: #FF7F99;
     overflow: hidden ;
     /*flexbox*/
-    display: flex;
-    
+    display: flex; 
 }
 .img-container img {
     width: 100%;
@@ -84,7 +85,6 @@ header nav a {
     display: flex;
     padding: 80px;
     flex-direction: column;
-
 }
 .consultores {
     font-size: 50px;
@@ -99,29 +99,41 @@ header nav a {
     height: 30px;
     width: 100px
 } /*Codigo de la letra Te llamamos*/
-
-.section-2 {
-    height: 400px;
+.card{
     background-color: #FF7F99;
+    width: 100% ;
+    margin: auto;
+    padding: 60px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
-.section-2 figure {
+.card-content {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    margin: auto; 
+}
+.card-picture {
     width: 277px;
-    height: 277PX;
+    height: 277px;
     max-width: 1200px;
     border-radius: 277px;
-    overflow: hidden;
-}
-.section-2 figure img {
-    width: 100%;
-    height: 100%;
+    display: flex;
+    overflow: hidden;  
     object-fit: cover;
-    object-position: center;
+    justify-content: center;
+    }
+
+.card-texts {
+    text-align: center;
+    padding: 25px;
 }
-.section-2 figure h2 {
-    font-size: 1000vh;
+.card-title {
+    font-size: 25px;
+    color: antiquewhite;
+    
 }
