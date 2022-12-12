@@ -249,3 +249,15 @@ LINKS
 =====
 
 http://127.0.0.1:5500
+
+MEMBERS OF THE PROJECT
+======================
+
+ANEEB RAHEM
+-----------
+ESTHER REYES
+------------
+VANESSA Cariñena
+----------------
+OSCAR HEREDIA
+-------------
