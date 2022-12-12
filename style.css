@@ -13,18 +13,15 @@ body {
     margin: 0;
     padding: 0;
 }
-
 header {
     background-color: #FF7F99 ;
     color: white;
     height: 100px;
     padding: 30px;
-
     /* flexBox */
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     flex-direction: row;
     flex-wrap: nowrap;
 }
@@ -34,7 +31,6 @@ header nav {
     flex-wrap: wrap;
     align-items: center;
 }
-
 header nav a {
     padding: 14px 15px;
     color: white;
@@ -48,7 +44,6 @@ header nav a {
  .title-color {
     color: #FFCA41;
  }
-
 .button{
     font-size: 16px;
     color: white;
@@ -60,7 +55,7 @@ header nav a {
 }
 .section {
     display: flex;
-    padding: 150px;
+    padding: 100px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -127,7 +122,6 @@ header nav a {
     object-fit: cover;
     justify-content: center;
     }
-
 .card-texts {
     text-align: center;
     padding: 25px;
@@ -135,5 +129,4 @@ header nav a {
 .card-title {
     font-size: 25px;
     color: antiquewhite;
-    
 }
