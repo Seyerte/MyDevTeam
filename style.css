@@ -80,6 +80,7 @@ header nav a {
     display: flex;
     padding: 80px;
     flex-direction: column;
+    align-items: center;
 }
 .consultores {
     font-size: 50px;
